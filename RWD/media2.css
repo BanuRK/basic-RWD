@@ -1,0 +1,165 @@
+@media ( min-width:425px) and (max-width:500px)
+{
+    body{
+        background-color: antiquewhite;
+        background: none;
+    }
+    .home-search{
+        width: 90%;
+        height: 5vh;
+        background: linear-gradient(to bottom, #ff595e,#8fe388);
+        border: 5px solid #5e6e60;
+        box-shadow: 10px 10px 5px #512f15;
+        border-radius:25% 15%;
+        padding-right:1px;
+        padding-left: 60px;
+        font-size: larger;
+        font-weight: 800;
+        margin-top: 0px;
+        
+        
+    }
+   
+    .header-details{
+        position: absolute;
+        height: 11vh;
+    }
+    nav ul {
+        flex-direction: column;   
+    }
+    .nav-details{
+        margin-top: 5%;
+        min-width: 38%;
+        min-height: 34vh;
+        position: absolute;
+    }
+    .page-details{
+        margin-top: 105%;
+        width:100%;
+        
+       flex-direction: column;
+    }
+    .page-content {
+        margin-top: 20%;
+        box-shadow: 10px 10px 5px #5e6e60;
+        text-align: center;
+    }
+    .page-content img{
+        width: 200px;
+        height: 200px;
+      
+    }
+    .background{
+       width: 350px; 
+       height: 600px;
+
+    }
+    .rent-menu{
+        width: 350px;
+        height: fit-content;
+       box-shadow: none;
+       padding-left: 50px;
+    }
+    .rent-details{
+        margin-top: 20%;
+        padding-top:50px;
+        height:310vh;
+        
+    }
+    .rent-form{
+        box-shadow: none;
+        background: none;
+    }
+    .report-details{
+        margin-top: 10px;
+        height: 100vh;
+    }
+    .report-form{
+        width: 100%;
+        height: 60vh;
+    }
+    .report-form h1{
+        width: 80%;
+    }
+    .repair-header{
+        height: 22vh;
+        padding-top: 3px;
+    }
+
+.col-md-4{
+   width: 90%;
+   
+}
+.col-md-4 label{
+    text-transform: uppercase;
+}
+.col-md-2{
+    width: 90%;
+}
+.col-md-2 label{
+    text-transform: uppercase;
+}
+
+/* .report-details{
+    margin-top:350%;
+}
+.report-form{
+    margin-top: 30%;
+    min-height: 80vh;
+} */
+.additional-details{
+   
+    width:55%;
+    height:45vh;
+    margin-top: 300px;
+    margin-left:90px;
+    background: linear-gradient(to right,#8fe388 ,#ff595e );
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 1 4px 8px 1 rgba(80, 215, 18, 0.2), 0 6px 20px 0 rgba(137, 81, 81, 0.19);
+    /* box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green; */
+    box-shadow: 10px 10px 5px #5e6e60;
+    text-align: center;
+    color: #a81217;
+   font-weight: 800;
+}
+#search-box{
+    width: 100%;
+}
+.about-search{
+    height: 50vh;
+}
+.about-details{
+    background: linear-gradient(to right,#8fe388 ,#ff595e );
+    width: 100%;
+   height: 120vh;
+}
+.about-form{
+    height: 120vh;
+    background: none;
+}
+.about-contact-details{
+background-color: #ff595fc3;
+    height: 55vh;
+}
+.table{
+    color: black;
+}
+#search-button{
+    width: 100%;
+}
+thead{
+    display: none;
+}
+td{
+    display: block;
+}
+.contact-details{
+    margin-top: 2px;
+    padding-top: 2px;
+    height: 100vh;
+}
+.contact-form{
+    width:100%;
+}
+
+}
